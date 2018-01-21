@@ -52,7 +52,7 @@ def main():
 
     path = sys.argv[1]
     height = int(sys.argv[2])
-    message = sys.argv[3]
+    message = sys.argv[3] * 2 # make the length even
 
     print(Image2Term(path).generate(height, message))
 

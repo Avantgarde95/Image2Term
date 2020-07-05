@@ -12,7 +12,7 @@ class Image2Term(object):
         image_new = self.image.resize((width_new, height_new), Image.ANTIALIAS)
         pixels_new = image_new.load()
 
-        # generate ASCII escape codes
+        # generate ANSI escape codes
         len_message = len(message)
         codes = [[''] * width_new for i in range(height_new)]
 

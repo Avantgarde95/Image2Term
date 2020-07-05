@@ -12,6 +12,3 @@ Simple script which draws an image on a terminal which supports 256 colors.
 ### Screenshots
 
 ![Mona lisa](https://i.imgur.com/hH4D8kF.png)
-
-![Moon](https://i.imgur.com/deaR5Nh.png)
-
